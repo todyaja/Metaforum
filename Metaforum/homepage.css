@@ -1,0 +1,153 @@
+
+.userIsLogin button, .userIsNotLogin button{
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 25px;
+}
+.userIsNotLogin{
+    height: 80px;
+    background-color: rgb(204, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+.userIsNotLogin img{
+    margin-left: 30%;
+}
+.userIsNotLogin img, .userIsLogin img{
+    cursor: pointer;
+}
+.userIsLogin{
+    height: 80px;
+    background-color: rgb(204, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:10px;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(118, 161, 255); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(118, 161, 255); 
+  }
+.group, .category{
+    width: 12%;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+#thread{
+    width: 76%;
+    height: 300px;
+    padding: 10px;
+    overflow-y: auto;
+}
+.group-card, .category-card{
+    cursor: pointer;
+    margin: 10px;
+}
+.center{
+    text-align: center;
+}
+.create-thread-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.thread-card{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    cursor: pointer;
+}
+#hot-thread{
+    margin-right: 15px;
+}
+.title-thread{
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap; /* Don't forget this one */
+    text-overflow: ellipsis;
+}
+.author-thread{
+    width: 12%;
+    overflow: hidden;
+    white-space: nowrap; /* Don't forget this one */
+    text-overflow: ellipsis;
+}
+.views{
+    width: 8%;
+}
+.views img{
+    width: 20px;
+    height: 20px;
+}
+.replies{
+    width: 10%;
+}
+.replies img{
+    width: 20px;
+    height: 20px;
+}
+.thread-card:nth-of-type(odd) {
+    background: #bdbbbb;
+}
+.avatar img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.user{
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+.thread-input input[type=text] {
+    border: none;
+    background: none;
+    width: 700px;
+    padding: 5px;
+    outline: none;
+  }
+.confirm-thread-creation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main-forum-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-thread-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.thread-content-description{
+    width:80%;
+}
+
+
